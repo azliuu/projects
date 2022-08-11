@@ -2,6 +2,8 @@
 
 A terminal wordle game based on NYT's Wordle, written in C.
 
+<img src="https://github.com/azliuu/projects/blob/master/wordle_game_demo.gif" width = "640" height = "388"/>
+
 ## Build
 
 * Download the wordle_game folder, and navigate to it in the terminal.
