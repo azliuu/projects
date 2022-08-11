@@ -16,7 +16,6 @@
 //   You can assume that result points at enough memory for a string of length
 //   5. (ie, at least 6 bytes long)
 bool score_guess(char *secret, char *guess, char *result) {
-  // TODO(you): finish this function
   for (int i = 0; secret[i] != '\0'; i++) {
     for (int j = 0; guess[j] != '\0'; j++) {
       guess[j] = tolower(guess[j]);
@@ -46,7 +45,6 @@ bool score_guess(char *secret, char *guess, char *result) {
 // A simple linear scan over the strings in vocabulary is fine for our purposes,
 // but consider: could you do this search more quickly?
 bool valid_guess(char *guess, char **vocabulary, size_t num_words) {
-  // TODO(you): finish this function
   for (int i = 0; guess[i] != '\0'; i++) {
     guess[i] = tolower(guess[i]);
   }
@@ -74,7 +72,6 @@ bool valid_guess(char *guess, char **vocabulary, size_t num_words) {
 // null-terminated.
 char **load_vocabulary(char *filename, size_t *num_words) {
   char **out = NULL;
-  // TODO(you): finish this function
   char buf[7];
   FILE *infile;
   size_t words_read = 0;
@@ -105,7 +102,6 @@ char **load_vocabulary(char *filename, size_t *num_words) {
 // Free each of the strings in the vocabulary, as well as the pointer
 // vocabulary itself (which points to an array of char *).
 void free_vocabulary(char **vocabulary, size_t num_words) {
-  // TODO(you): finish this function
   for (unsigned long i = 0; i < num_words; i++) {
     free(vocabulary[i]);
   }
@@ -113,9 +109,6 @@ void free_vocabulary(char **vocabulary, size_t num_words) {
   vocabulary = NULL;
 }
 
-// Once your other functions are working, please revert your main() to its
-// initial state, but please feel free to change it, during development.
-// You'll want to test out each individual function!
 int main(void) {
   char **vocabulary;
   size_t num_words;
@@ -130,7 +123,7 @@ int main(void) {
   int word_index = rand() % num_words;
   char *secret = vocabulary[word_index];
 
-  // input buffer -- we'll use this to get a guess from the user.
+  // input buffer -- use this to get a guess from the user.
   char guess[80];
 
   // buffer for scoring each guess.
