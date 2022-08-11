@@ -10,4 +10,4 @@ A terminal wordle game based on NYT's Wordle.
 
 ## Notes
 
-* In order to accurately mimic Wordle rules, the provided word list should be altered as Wordle changes/updates the official accepted word list.
+* In order to accurately mimic Wordle rules, the `vocabulary.txt`file should be altered as Wordle changes/updates the official accepted word list.
