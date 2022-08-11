@@ -1,6 +1,6 @@
 # Terminal Wordle Game
 
-A terminal wordle game based on NYT's Wordle.
+A terminal wordle game based on NYT's Wordle, written in C.
 
 ## Build
 
