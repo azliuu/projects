@@ -7,12 +7,13 @@ A terminal wordle game based on NYT's Wordle, written in C.
 ## Build
 
 * Download the wordle_game folder, and navigate to it in the terminal.
-* Run `make` to build the executeable.
+* Run `$ make` to build the executeable.
 * After you're finished, `make clean` removes the executeable.
 
 ## Playing the Game
 
-* After building the program, to play Wordle with a random secret run: `./wordle`
+* After building the program, to play Wordle with a random secret run:
+`$ ./wordle`
 * Each letter in a guess can be:
   * y = letter is in the word, but not in the right place.
   * x = letter is not in the word.
