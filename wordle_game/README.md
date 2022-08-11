@@ -8,7 +8,7 @@ A terminal wordle game based on NYT's Wordle, written in C.
 
 * Download the wordle_game folder, and navigate to it in the terminal.
 * Run `$ make` to build the executeable.
-* After you're finished, `make clean` removes the executeable.
+* After you're finished, `$ make clean` removes the executeable.
 
 ## Playing the Game
 
