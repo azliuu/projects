@@ -1,6 +1,8 @@
 # Terminal Wordle Solver
 A terminal based tool to automatically solve wordles, written in C.
 
+![](https://github.com/azliuu/projects/blob/master/wordle_solver_demo.gif)
+
 # Build
 * To build the program download the wordle_solver and navigate to the downloaded folder in your terminal.
 * Build the executeable: `$ make`
