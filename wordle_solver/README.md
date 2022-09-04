@@ -14,4 +14,4 @@ A terminal based tool to automatically solve wordles, written in C.
   * y - yellow letter
   * x - grey letter
   * g - green letter
-* The solver will then continue to provide guesses based on the given information until the wordle is solved.
+* The tool will then continue to provide guesses based on the given information until the wordle is solved.
