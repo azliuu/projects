@@ -1,8 +1,12 @@
-import Landing from './Landing';
-import './App.css';
+import Landing from "./Landing";
+import "./App.css";
+import { ThemeProvider } from "@mui/material";
+import { themeOptions } from "./Components/theme";
 function App() {
   return (
-    <Landing/>
+    <ThemeProvider theme={themeOptions}>
+      <Landing />
+    </ThemeProvider>
   );
 }
 
